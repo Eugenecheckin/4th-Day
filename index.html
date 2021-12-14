@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="ru-ru">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>   
-        <link rel="stylesheet" href="css/reset.css"/>     
-        <link rel="stylesheet" href="css/style.css"/>  
-    </head>
-    <body>
-    <section class="about-me-app">     
-        <section class="first-screen">
-            <div class="first-screen__stamp">wd</div>
-            <div class="first-screen__menu">                
-                <a class="#">ГЛАВНАЯ</a>
-                <a class="#">ОБ АВТОРЕ</a>
-                <a class="#">РАБОТЫ</a>
-                <a class="#">ПРОЦЕСС</a>
-                <a class="#">КОНТАКТЫ</a>                
-            </div>
-            <!--<div class="first-screen__img">-->
-            <img src="img/first__screen_img.svg" class="first-screen__img"/>
-            <!--</div>-->
-            <div class="first-screen__desc">
-                <h1>Дизайн и верстка</h1>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>    
+    <section class="first-screen" id="sec-1">
+      <div class="wrapper">
+        <div class="first-screen__header">
+          <div class="first-screen__stamp">wd</div>
+          <nav class="first-screen__menu">
+            <ul class="first-screen__menu-lst">
+              <li class="first-screen__menu-item">
+                <a href="#sec-1" class="first-screen__menu-lnk">ГЛАВНАЯ</a>
+              </li>
+              <li class="first-screen__menu-item">
+                <a href="#!" class="first-screen__menu-lnk">ОБ АВТОРЕ</a>
+              </li>
+              <li class="first-screen__menu-item">
+                <a href="#!" class="first-screen__menu-lnk">РАБОТЫ</a>
+              </li>
+              <li class="first-screen__menu-item">
+                <a href="#!" class="first-screen__menu-lnk">ПРОЦЕСС</a>
+              </li>
+              <li class="first-screen__menu-item">  
+                <a href="#!" class="first-screen__menu-lnk">КОНТАКТЫ</a>
+              </li>            
+            </ul>          
+          </nav>
+        </div>
+        <div class="first-screen__content">
+          <img src="img/first__screen_img.svg" alt="logo" class="first-screen__img"/>            
+          <div class="first-screen__desc">
+            <ul class="first-screen__desc-lst">
+              <li class="first-screen__desc-item">
+                <p class="first-screen__title">Дизайн и верстка</p>
+              </li>
+              <li class="first-screen__desc-item">
                 <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-                   Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века
+                  Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века
                 </p>
-            </div>
-        </section>
-        <section class="numbers"></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <footer></footer>  
-    </section>
-    </body>
+              </li>
+              <li class="first-screen__desc-item">
+                <button type="button" class="first-screen__button">НАПИСАТЬ МНЕ</button>
+              </li>
+            </ul>        
+          </div>
+        </div>          
+      </div>
+    </section> 
+    <section class="numbers"></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <footer></footer>     
+  </body>
 </html>

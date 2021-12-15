@@ -105,37 +105,43 @@ button {
   .welcome-page__header{
     flex-direction: column;
   }
-  .welcome-page__menu{
-    visibility: hidden;
+  .welcome-page__menu-lst{
+    display: none;
   }
+  /*.welcome-page__menu{
+    visibility: hidden;
+  }*/
   .welcome-page__title{    
     font-weight: 500;
     font-size: 36px;
     line-height: 36px;
   }  
   .welcome-page__content{
-    flex-direction: column;
+    flex-direction: column;    
   }
+  .welcome-page__img{
+    padding-bottom: 50px;
+  } 
   /*.welcome-page__header{
     margin-top: 22px;
     margin-left: 19px;
     margin-right: 19px;
-  } 
+  } */
   .welcome-page__img{
     width: 298px;
   }  
-  .welcome-page__desc{
+  /*.welcome-page__desc{
     margin-top: 51px;
   }*/
   .welcome-page__desc-item{    
     margin: auto;
-    /*margin-bottom: 40px;
-    margin-left: 26px;
+    margin-bottom: 40px;
+    /*margin-left: 26px;
     margin-right: 27px;*/ 
   }
-  /*.welcome-page__content{
+  .welcome-page__content{
     margin-top: 67px;
     margin-left: 26px;
     margin-right: 27px;
-  }*/    
+  }    
 }

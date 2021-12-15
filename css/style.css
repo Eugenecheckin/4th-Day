@@ -15,6 +15,8 @@ body{
   line-height: 26px;
   background-color: #E5E5E5;
 }
+
+/* -------------------Welcome Page Start-------------------*/
 .wrapper{
     max-width: 1280px;
     margin: 0 auto;   
@@ -126,7 +128,42 @@ button {
   .welcome-page__content{
     margin-top: 67px;
     margin-left: 26px;
-    margin-right: 27px;
+    margin-right: 26px;
   }  
   
 }
+/* -------------------Welcome Page end-------------------*/
+/*----------------------About Me page start-------------*/
+.about-me__title{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+.about-me__context{ 
+  text-align: center;
+  color: #727272;
+}
+.about-me__context{ 
+  margin-right: 85px;
+  margin-left: 85px;
+  margin-top: 107px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+@media screen and (max-width: 1279px){  
+  .about-me__story{
+    margin-top: 90px;
+
+  }
+  .about-me__context{ 
+    margin-right: 26px;
+    margin-left: 26px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+  }
+
+}
+/*---------------------About Me page end----------------*/

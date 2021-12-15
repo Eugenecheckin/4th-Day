@@ -158,7 +158,7 @@ button {
 
   }
   .about-me__context{ 
-    margin-right: 26px;
+    margin-right: 26px; 
     margin-left: 26px;
     margin-top: 90px;
     margin-bottom: 90px;
@@ -166,4 +166,30 @@ button {
   }
 
 }
+
+
 /*---------------------About Me page end----------------*/
+/*---------------------progect-count page start----------------*/
+
+
+.progect-count__content-grid{  
+  background-color: #34547A;  
+}
+.progect-count__content-grid{    
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+.progect-count__content-img-pic{
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+@media screen and (max-width: 1279px){
+  .progect-count__content-grid{    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+  } 
+}
+/*---------------------progect-count page end----------------*/

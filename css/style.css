@@ -98,19 +98,13 @@ button {
     line-height: 19px;
     align-items: center;
   } 
-  /*.wrapper{    
-    max-width: 375px;
-    margin: 0 10;    
-  } */
+ 
   .welcome-page__header{
     flex-direction: column;
   }
   .welcome-page__menu-lst{
     display: none;
   }
-  /*.welcome-page__menu{
-    visibility: hidden;
-  }*/
   .welcome-page__title{    
     font-weight: 500;
     font-size: 36px;
@@ -121,27 +115,18 @@ button {
   }
   .welcome-page__img{
     padding-bottom: 50px;
-  } 
-  /*.welcome-page__header{
-    margin-top: 22px;
-    margin-left: 19px;
-    margin-right: 19px;
-  } */
+  }   
   .welcome-page__img{
     width: 298px;
-  }  
-  /*.welcome-page__desc{
-    margin-top: 51px;
-  }*/
+  }    
   .welcome-page__desc-item{    
     margin: auto;
-    margin-bottom: 40px;
-    /*margin-left: 26px;
-    margin-right: 27px;*/ 
+    margin-bottom: 40px;   
   }
   .welcome-page__content{
     margin-top: 67px;
     margin-left: 26px;
     margin-right: 27px;
-  }    
+  }  
+  
 }

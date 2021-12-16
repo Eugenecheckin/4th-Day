@@ -179,11 +179,17 @@ button {
 .progect-count{  
   background-color: #34547A;  
 }
-.progect-count__content-grid{    
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
+.progect-count__content{
+  margin-left: 85px;
+  margin-right: 85px;
+  padding-top:100px;
+  padding-bottom: 100px;
 }
-.progect-count__content-img-pic{
+.progect-count__content-grid{    
+  display: flex;
+  justify-content: space-between;
+}
+.progect-count__content__img{
   margin-top: 26px;
   margin-bottom: 26px;
   margin-left: 26px;
@@ -191,9 +197,17 @@ button {
 }
 @media screen and (max-width: 1279px){
   .progect-count__content-grid{    
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,1fr);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .progect-count__content{
+    margin-left: 19px;
+    margin-right: 19px;
+    padding-top:75px;
+    padding-bottom: 75px;
   } 
 }
 /*---------------------progect-count page end----------------*/
@@ -231,10 +245,11 @@ button {
 .skill-context__photo-pic{
   background-repeat: no-repeat;       
   background-size: cover;
+  display:block;
 }
 .skill-context__photo-pic{
-  width: 535px;
-  height: 450px; 
+  max-width: 535px;
+  width: 100%;
 }
 .skill-context__line{
   margin-left: 0px; 
@@ -247,26 +262,28 @@ button {
 }
 .skill-context{
   margin-top: 102px;
+}
+.skills-page_news{
   margin-left: 85px;
   margin-right: 85px;
-  /*display: block;*/
 }
-.skill-context__photo{
-  margin-right: 85px;
-}
+
 .skills-page_news{
   display: flex;
   justify-content: space-between;
   align-items:flex-start;
+  
 }
 @media screen and (max-width: 1279px){  
   .skills-page_news{
     flex-direction: column-reverse;
     align-items: center;
   }
-  .skill-context__photo-pic{    
-    margin-right: 0px;
-  }  
+  
+  .skills-page_news{
+    margin-left: 16px;
+    margin-right: 16px;
+  } 
 }
 
   /*---------------------skills page end-----------------*/
@@ -292,6 +309,7 @@ button {
   margin-left: 85px;
 }
 .video-page__context{   
+  position: relative;
   margin-top: 0px;
   margin-bottom: 100px;
   text-align: center;
@@ -302,7 +320,7 @@ button {
   background-size: cover;
 }
 .video-page__photo-pic{  
-  max-width: 1110px;
+  max-width: 100%;
   height: auto; 
 }
 .video-page{
@@ -310,13 +328,14 @@ button {
 }
 .video-page__photo{
   position: relative;
+  display: flex;
 }
+
 .video-page__photo-button{   
   position: absolute;
-  /*left: calc(50%+5px);  
-  top: calc(50%+5px);  */
-  left: 50%;  
-  top: 50%;
+  left: calc(50% - 50px); 
+  top: calc(50% - 50px); 
+  z-index: -10;   
 }
 .video-page__content{
   display: flex;
@@ -324,10 +343,12 @@ button {
   align-items: center;
 }
 
+.video-page__content :hover {  
+  z-index: -20;
+}
+
 @media screen and (max-width: 1279px){  
-  .skill-context__photo-pic{
-    margin-right: 0px;
-  }
+  
   .video-page__story{
     margin-top: 90px;
 

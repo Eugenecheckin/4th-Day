@@ -193,3 +193,73 @@ button {
   } 
 }
 /*---------------------progect-count page end----------------*/
+/*---------------------skills page start-----------------*/
+/*.skills-page_content-img{  
+  max-width: 450px;
+  
+}*/
+.skills-title{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 65px;
+}
+.skill-context__name{
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.skill-context__line{
+  width: 430px;
+  border: 4px solid #C4C4C4;
+  background-color: #C4C4C4;
+}
+.skill-context__progress{
+  margin-top: -16px;
+  width: 340px;
+  border: 4px solid #34547A;
+  background-color: #34547A;
+}
+
+.skill-context__photo-pic{
+  background-image: url(/img/notebook.svg);
+  background-repeat: no-repeat;       
+  background-size: cover;
+}
+.skill-context__photo-pic{
+  width: 535px;
+  height: 450px; 
+}
+.skill-context__line{
+  margin-left: 0px; 
+}
+.skill-context__progress{
+  margin-left: 0px;
+}
+.skills-title{
+  margin-top: 65px;
+}
+.skill-context{
+  display: block;
+}
+.skills-page_news{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*---------------------skills page end-----------------*/

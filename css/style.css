@@ -262,6 +262,7 @@ button {
 @media screen and (max-width: 1279px){  
   .skills-page_news{
     flex-direction: column-reverse;
+    align-items: center;
   }
   .skill-context__photo-pic{    
     margin-right: 0px;
@@ -304,13 +305,18 @@ button {
   max-width: 1110px;
   height: auto; 
 }
+.video-page{
+  position: relative;
+}
+.video-page__photo{
+  position: relative;
+}
 .video-page__photo-button{   
   position: absolute;
-  /*left: 200px;  
-  top: 200px; */
+  /*left: calc(50%+5px);  
+  top: calc(50%+5px);  */
   left: 50%;  
   top: 50%;
-  
 }
 .video-page__content{
   display: flex;

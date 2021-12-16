@@ -164,13 +164,11 @@ button {
     margin-bottom: 90px;
     text-align: center;
   }
-
 }
 
-
 /*---------------------About Me page end----------------*/
-/*---------------------progect-count page start----------------*/
 
+/*---------------------progect-count page start----------------*/
 
 .progect-count__content-grid{  
   background-color: #34547A;  
@@ -194,10 +192,7 @@ button {
 }
 /*---------------------progect-count page end----------------*/
 /*---------------------skills page start-----------------*/
-/*.skills-page_content-img{  
-  max-width: 450px;
-  
-}*/
+
 .skills-title{
   font-weight: 500;
   font-size: 32px;
@@ -241,6 +236,8 @@ button {
   margin-top: 65px;
 }
 .skill-context{
+  margin-left: 85px;
+  margin-right: 85px;
   display: block;
 }
 .skills-page_news{
@@ -248,18 +245,10 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 1279px){  
+  .skills-page_news{
+    flex-direction: column-reverse;
+  }
+}
 
   /*---------------------skills page end-----------------*/

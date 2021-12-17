@@ -203,16 +203,18 @@ button {
   margin-right: 26px;
 }
 @media screen and (max-width: 1279px){
-  .progect-count__content-grid{    
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  /*#pr1, #pr2, #pr3, #pr4, #pr5, #pr6 {
-    margin: 15px 15px 15px 15px;
-  }*/
+.progect-count__content-grid{    
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
   
+  #pr1, #pr2, #pr3{
+    align-self: flex-start;
+  }
+  #pr4, #pr5, #pr6{
+    align-self: flex-end;
+  }
   .progect-count__content{
     margin-left: 16px;
     margin-right: 16px;
@@ -237,7 +239,7 @@ button {
   margin-bottom: 20px;
 }
 .skill-context__item{
-  width: 385px;
+  width: 100%;
 }
 .skill-context__line{
   width: 100%;
@@ -284,7 +286,8 @@ button {
   align-items:flex-start;
   
 }
-@media screen and (max-width: 1279px){  
+@media screen and (max-width: 1279px){ 
+  
   .skills-page_news{
     flex-direction: column-reverse;
     align-items: center;
@@ -331,7 +334,7 @@ button {
   background-size: cover;
 }
 .video-page__photo-pic{  
-  max-width: 100%;
+  *max-width: 100%;
   height: auto; 
 }
 .video-page{
@@ -474,9 +477,7 @@ button {
 }
 @media screen and (max-width: 1279px){ 
   #ask-input__name, #ask-input__mail{    
-    width: 342px;    
-    margin:0px 0px 20px 0px; 
-    border: 4px solid white;
+    width: 342px;
   }  
   .ask-input__inf{  
     width: 342px;    

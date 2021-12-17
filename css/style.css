@@ -379,12 +379,13 @@ button {
   margin-right: 26px;
 }
 @media screen and (max-width: 1279px){
-  .progect__content{    
+  /*.progect__content{    
     display: flex;
     align-items: center;
+    flex: 0 1 auto;
     flex-wrap: wrap;
-    justify-content: space-between;
-  }
+    justify-content: center;
+  }*/
   
   .progect__content{
     margin-left: 19px;

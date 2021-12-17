@@ -161,7 +161,6 @@ button {
 @media screen and (max-width: 1279px){  
   .about-me__story{
     margin-top: 90px;
-
   }
   .about-me__context{ 
     margin-right: 26px; 
@@ -307,6 +306,7 @@ button {
 .video-page__content{
   margin-right: 85px;
   margin-left: 85px;
+  margin-bottom: 100px;
 }
 .video-page__context{   
   position: relative;
@@ -361,8 +361,37 @@ button {
     text-align: center;
   }
 }
-
-
-
 /*---------------------video-page end----------------*/
+
+/*---------------------progects-page start----------------*/
+
+.progect__content{    
+  display: flex;
+  align-items: center;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.progect__content__img{
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+@media screen and (max-width: 1279px){
+  .progect__content{    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .progect__content{
+    margin-left: 19px;
+    margin-right: 19px;
+    padding-top:75px;
+    padding-bottom: 75px;
+  } 
+}
+/*---------------------progects-page end----------------*/
 

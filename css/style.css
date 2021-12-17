@@ -25,6 +25,8 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+
+
 .welcome-page__header{
   margin-top: 57px;
   margin-left: 85px;
@@ -140,6 +142,9 @@ button {
 }
 /* -------------------Welcome Page end-------------------*/
 /*----------------------About Me page start-------------*/
+.about-me{
+  background: #EEEEE1;
+}
 .about-me__story{
   margin-top: 104px;
 }
@@ -204,9 +209,9 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  #pr1, #pr2, #pr3, #pr4, #pr5, #pr6 {
+  /*#pr1, #pr2, #pr3, #pr4, #pr5, #pr6 {
     margin: 15px 15px 15px 15px;
-  }
+  }*/
   
   .progect-count__content{
     margin-left: 16px;
@@ -232,7 +237,7 @@ button {
   margin-bottom: 20px;
 }
 .skill-context__item{
-  width: 430px;
+  width: 385px;
 }
 .skill-context__line{
   width: 100%;
